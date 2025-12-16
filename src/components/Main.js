@@ -245,7 +245,7 @@ const Main = () => {
     phone: "+91 98765 43229"
   }
 ]);
-console.log(employees,"data");
+
   return (
     <div>
         <Card items={employees} />

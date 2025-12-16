@@ -14,7 +14,6 @@ const Card = ({items}) => {
            <p className="card-department">Department: {item?.department}</p>
             <p className="card-shift">Shift: {item?.shift}</p>
         </div>
-        
         ))}
         </div>
     </div>
