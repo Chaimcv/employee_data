@@ -10,7 +10,7 @@ const Card = ({items}) => {
          
           <h3 class="font-bold" >{item?.name}</h3>
            <img src={item?.image} alt="Employee"></img>
-          <p className="card-designation">Designation: {item?.designation}</p>
+          <p>Designation: {item?.designation}</p>
            <p className="card-department">Department: {item?.department}</p>
             <p className="card-shift">Shift: {item?.shift}</p>
         </div>
