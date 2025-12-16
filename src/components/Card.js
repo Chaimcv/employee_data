@@ -6,11 +6,13 @@ const Card = ({items}) => {
         <h3>Details</h3>
         <div className='list'>
             {items.map((item)=>(
-            <div class="card" key={item.id}>
+            <div className="card" key={item.id}>
          
-          <h3 class="card-title" >{item.name}</h3>
-           <img class="card-img" src="${item?.image}" ></img>
-          <p class="card-text">Age: {item.age}</p>
+          <h3 className="card-title" >{item?.name}</h3>
+           <img className="card-img" src={item?.image} alt="Employee"></img>
+          <p className="card-designation">Designation: {item?.designation}</p>
+           <p className="card-department">Department: {item?.department}</p>
+            <p className="card-shift">Shift: {item?.shift}</p>
         </div>
         
         ))}
