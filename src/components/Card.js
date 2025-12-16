@@ -3,13 +3,13 @@ import React from 'react'
 const Card = ({items}) => {
   return (
     <div>
-        <h3>Details</h3>
-        <div className='list'>
+        <h4 class="bg-blue-200">Details</h4>
+        <div class="grid grid-cols-4 gap-4 bg-blue-300">
             {items.map((item)=>(
-            <div className="card" key={item.id}>
+            <div class="bg-blue-600 p-4 border-double" key={item.id}>
          
-          <h3 className="card-title" >{item?.name}</h3>
-           <img className="card-img" src={item?.image} alt="Employee"></img>
+          <h3 class="font-bold" >{item?.name}</h3>
+           <img src={item?.image} alt="Employee"></img>
           <p className="card-designation">Designation: {item?.designation}</p>
            <p className="card-department">Department: {item?.department}</p>
             <p className="card-shift">Shift: {item?.shift}</p>
