@@ -1,9 +1,8 @@
 import React from 'react'
-import { useState} from 'react';
 import Card from './Card';
 
 const Main = () => {
-    const [employees] =useState( [
+    const employees = [
   {
     id: 1,
     name: "Arjun Menon",
@@ -244,7 +243,7 @@ const Main = () => {
     email: "anand.krish@company.com",
     phone: "+91 98765 43229"
   }
-]);
+];
 
   return (
     <div>
