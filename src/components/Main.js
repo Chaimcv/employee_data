@@ -247,9 +247,15 @@ const Main = () => {
 
   return (
     <div>
-        <Card items={employees} />
+      {employees.map((item)=>(
+       
+         <Card items={item} />
+
+      ))}
+       
     </div>
   )
-}
+  }
+
 
 export default Main
