@@ -12,7 +12,6 @@ const Card = ({items}) => {
   return (
     <div class="grid grid-cols-4  bg-blue-300">
         {/* <h4 class="bg-blue-200">Details</h4> */}
-       
            
             <div class="bg-blue-600 p-4 border-double" key={items.id}>
          
