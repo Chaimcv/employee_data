@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
-import { BrowserRouter,Routes, Route, Link,useParams } from 'react-router-dom';
+import { BrowserRouter,Routes, Route, Link} from 'react-router-dom';
 import About from'./pages/About';
 import User_details from './pages/User_details';
 

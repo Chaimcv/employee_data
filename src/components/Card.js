@@ -17,7 +17,8 @@ const Card = ({items}) => {
                <h3 class="font-bold" >{items?.name}</h3>
            <img src={items?.image} alt="Employee"></img>
           
-           <button >View Details</button>
+           {/* <button >View Details</button> */}
+           <Link to={'/User_details/${items.id}'}>View Details</Link>
   
            
            {/* <p>Designation: {items?.designation}</p>
