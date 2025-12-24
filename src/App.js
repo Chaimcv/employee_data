@@ -17,11 +17,11 @@ function App() {
         <Link to="/about">About</Link>|{"  "}
       </nav>
       <Routes>
-        <Route path="/" element={<Main />} />
+         <Route path="/" element={<Main />} />
          <Route path="/about" element={<About />} />
          <Route path="/User_details/:id" element={<User_details />} />
-      </Routes>
-      </BrowserRouter> 
+       </Routes>
+       </BrowserRouter> 
        <Footer />
     </div>
   );
