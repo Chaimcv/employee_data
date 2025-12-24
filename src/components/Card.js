@@ -11,11 +11,10 @@ const Card = ({items}) => {
   return (
     <div class="grid grid-cols-4  bg-blue-300">
         {/* <h4 class="bg-blue-200">Details</h4> */}
-           
             <div class="bg-blue-600 p-4 border-double" key={items.id}>
          
                <h3 class="font-bold" >{items?.name}</h3>
-           <img src={items?.image} alt="Employee"></img>
+               <img src={items?.image} alt="Employee"></img>
           
            {/* <button >View Details</button> */}
            <Link to={'/User_details/${items.id}'}>View Details</Link>
