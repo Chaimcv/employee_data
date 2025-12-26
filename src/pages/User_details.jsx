@@ -8,7 +8,6 @@ const User_details = () => {
   return (
     <div>
       <p>{id}</p>
-
     </div>
   )
 }

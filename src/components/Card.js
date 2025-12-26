@@ -2,7 +2,6 @@ import React from 'react'
 import User_details from '../pages/User_details';
 import{Link} from 'react-router-dom';
 
-
 const Card = ({items}) => {
   // const[eid,setEmployeeid]=useState();
   // const id=function(){
