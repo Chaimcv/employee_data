@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card';
 
+
 const Main = () => {
     const employees = [
   {
@@ -250,6 +251,7 @@ const Main = () => {
       {employees.map((item)=>(
        
          <Card items={item} />
+ 
 
       ))}
        
