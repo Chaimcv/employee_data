@@ -245,7 +245,6 @@ const Main = () => {
     phone: "+91 98765 43229"
   }
 ];
-
   return (
     <div>
       {employees.map((item)=>(
