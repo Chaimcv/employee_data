@@ -8,6 +8,7 @@ const Card = ({items}) => {
   // const id=function(){
   //   setEmployeeid=${items.id};
   // }
+  console.log(items);
   return (
     <div class="grid grid-cols-4  bg-blue-300">
         {/* <h4 class="bg-blue-200">Details</h4> */}
@@ -17,8 +18,8 @@ const Card = ({items}) => {
                <img src={items?.image} alt="Employee"></img>
           
            {/* <button >View Details</button> */}
-           <Link to={'/User_details/${items.id}'}>View Details</Link>
-  
+           <Link to={`/User_details/${items.id}`}>View Details</Link>
+ 
            
            {/* <p>Designation: {items?.designation}</p>
             <p className="card-department">Department: {items?.department}</p>
