@@ -246,12 +246,12 @@ const User_details = () => {
     phone: "+91 98765 43229"
   }
 ];
-// const clicked={id};
-// console.log(clicked);
-const found=employees.filter(itemm=>{
-  return itemm.id.includes({id});
-});
-found.map(item=>{
+
+employees.filter(item=>{if(item.id===id){
+//   return item.id.includes({id});
+// });
+// found.map(item=>{
+  console.log("g");}
   return (
     <div>
       <p>{id}</p>
