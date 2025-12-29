@@ -246,17 +246,16 @@ const User_details = () => {
     phone: "+91 98765 43229"
   }
 ];
-
-employees.filter(item=>{if(item.id===id){
-//   return item.id.includes({id});
-// });
-// found.map(item=>{
-  console.log("g");}
-  return (
-    <div>
+console.log(id);
+const found=employees.filter(item=>{
+  return item.id.includes(id);
+ });
+ found.map(items=>{
+  console.log("g");
+  return  ` <div class key=items.id>
       <p>{id}</p>
-    </div>
-  )
+    </div>`
+  
   });
 }
 // const Cardd =({items}) =>{
