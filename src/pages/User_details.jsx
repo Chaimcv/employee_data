@@ -246,7 +246,7 @@ const User_details = () => {
     phone: "+91 98765 43229"
   }
 ];
-console.log(id);
+// console.log(id);
 const found=employees.filter(item=>{
   return item.id.includes(id);
  });
